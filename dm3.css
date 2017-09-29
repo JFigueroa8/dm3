@@ -1,0 +1,22 @@
+.carousel-inner > .item > img {
+  width:360px;
+  height:500px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.caption-below { 
+  text-align: center;
+  background: black;  
+ }
+ .caption-below h3 {
+  font: bold large;
+  padding-top: 0; 
+  margin-top: 0; 
+ }
+ .caption-below p {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 2%;
+  font: small;
+  }
