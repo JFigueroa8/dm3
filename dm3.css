@@ -1,0 +1,186 @@
+body {
+  /* text-align: center; */
+  color: white;
+  /* background-color: #DDDCDC; */
+  background-color: white;
+
+  animation: fadein 15s;
+  -moz-animation: fadein 15s; /* Firefox */
+  -webkit-animation: fadein 15s; /* Safari and Chrome */
+  -o-animation: fadein 15s; /* Opera */
+}
+
+.jumbotron {
+  background: url("https://misadventuresmag.com/wp-content/uploads/2014/03/saltflats.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-top: 60px;
+  position:relative;
+  z-index: 2;
+  box-shadow: 8px 8px 16px -1px black;
+}
+
+.jumbotron > .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#row_under_carousel {
+  border-top: 2px solid white;
+  
+}
+
+.member {
+  border-radius: 10px;
+}
+
+.slide {
+  min-height: 800px;
+  background: #2F2D31;
+  box-shadow: 8px 8px 16px -1px black;
+  border-radius: 10px;
+}
+
+#content {
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
+  padding-top: 20px;
+}
+
+.navbar {
+  border: 2px solid #2F2D31;
+  background: #2F2D31;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}
+
+.navbar-default .navbar-brand{
+  color: white;
+}
+
+.carousel-inner > .item > img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+hr {
+  width: 80%;
+}
+
+h4 {
+  /* text-decoration: underline; */
+  text-align: center;
+  text-transform: uppercase;
+  color: #5AA8E7;
+}
+
+.caption-below { 
+  background: rgb(47, 46, 49);
+  border-radius: 0 0 10px 10px;
+  padding-top: 20px;
+  margin-bottom: 35px;  
+}
+.caption-below h3 {
+  font: bold large;
+  padding-top: 0; 
+  margin-top: 0; 
+  text-align: center;
+ }
+ .caption-below p {
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-bottom: 2%;
+  font: medium;
+  }
+ .caption-below ul li {
+  margin-left: 8%;
+  margin-right: 8%;
+  padding-bottom: 2%;
+  font: medium;
+  }
+
+  .name {
+    color: #5AA8E7;
+  }
+
+   
+  #backgroundaudio { 
+  display: block; 
+  position: fixed; 
+  bottom: -43px; 
+  left: 5px; 
+  -webkit-transition: all 1s ease-in-out; 
+  -moz-transition: all 1s ease-in-out; 
+  -ms-transition: all 1s ease-in-out; 
+  -o-transition: all 1s ease-in-out; 
+  transition: all 1s ease-in-out; 
+  } 
+  #backgroundaudio:hover { 
+  bottom: 0; 
+  -webkit-transition: all 1s ease-in-out; 
+  -moz-transition: all 1s ease-in-out; 
+  -ms-transition: all 1s ease-in-out; 
+  -o-transition: all 1s ease-in-out; 
+  transition: all 1s ease-in-out; 
+  } 
+  #backgroundaudio audio { 
+  background: #2F2D31; 
+  padding: 5px; 
+  display: table-cell; 
+  vertical-align: middle; 
+  height: 43px; 
+  z-index: 9998; 
+  } 
+  #backgroundaudio i { 
+  font-size: 40px; 
+  display: block; 
+  background: #2F2D31; 
+  padding: 5px; 
+  width: 50px; 
+  float: none; 
+  margin-bottom: -1px; 
+  z-index: 9999; 
+  }
+  
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+  
