@@ -112,7 +112,7 @@ h4 {
   }
 
    
-  #backgroundaudio { 
+/*   #backgroundaudio { 
   display: block; 
   position: fixed; 
   bottom: -43px; 
@@ -148,7 +148,7 @@ h4 {
   float: none; 
   margin-bottom: -1px; 
   z-index: 9999; 
-  }
+  } */
   
 @keyframes fadein {
   from {
